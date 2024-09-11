@@ -1,13 +1,12 @@
 import './App.css'
-import Request from './components/request/Request'
-import Results from './components/results/Results'
+import Weather from './components/weather'
+
 
 function App() {
 
   return (
     <>
-      <Request />
-      <Results />
+    <Weather />
     </>
   )
 }
